@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-function App () {
- return <div>
-   Olar
- </div>
-}
+import HomeView from './views/Home.view'
+// arquivos js e jsx não precisa sufixar na hora de fazer import
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomeView />
   </React.StrictMode>,
   document.getElementById('root')
 );
